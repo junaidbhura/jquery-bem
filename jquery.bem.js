@@ -10,7 +10,7 @@
 	$.fn.bem = function( root ) {
 		this.data( 'bem', root );
 		return this;
-    };
+	};
 
 	$.fn.bemChild = function( childPath ) {
 		var bemPath = this.data( 'bem' ) + '__' + childPath;
